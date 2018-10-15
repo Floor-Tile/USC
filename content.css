@@ -1,3 +1,4 @@
+/*USC*/
 *{
   font-family: 'Encode Sans Condensed', sans-serif;
   margin: 0;
@@ -341,20 +342,20 @@ html,body{
   padding-top: 20px;
 }
 
-/*CAR FREE CITY PAGE*/
+/*CHAPTER PAGES*/
 .home-button{
   width: 250px;
   margin: 20px;
   padding-top: 20px;
 }
 
-#car-free h1{
+#chapter-info h1{
   font-size: 50px;
   text-align: center;
   font-weight: bold;
   color: #000000;
 }
-#car-free p{
+#chapter-info p{
   font-size: 20px;
   color: #000000;
   padding-top:50px;
@@ -399,3 +400,5 @@ html,body{
 #credit a:hover{
   text-decoration: none;
 }
+
+/*MANIFESTO PAGE*/
