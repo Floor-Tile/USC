@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Get In Touch</title>
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images\icon.ico" type="image/x-icon">
+  </head>
+
+  <header class="container">
+    <section class="row" id="manifesto-title">
+      <a href="index.html"><img class="home-button pull-right" src="images\title.jpg" alt="Home"/></a>
+      <h1>Get In Touch</h1>
+    </section>
+    <section class="contact-form">
+      <p>There are countless examples of people unlocking real sustainable cities across the world.
+        I would love to hear from you if you have got an inspiring example. I will post a selection here as I receive them.
+        Use the form below...
+      </p>
+    </section>
+  </header>
+
+  <div id="contact" class="contact container">
+    <div class="container">
+      <form action="contact.php" method="post">
+      <div class="col-md-6">
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon" id="sizing-addon-1"><i class="fa fa-question-circle"></i></span>
+          <input type="text" name="example" class="form-control" aria-describedby="sizing-addon-1" placeholder="Name of Example">
+        </div>
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon" id="sizing-addon-1"><i class="fa fa-map-marker"></i></span>
+          <input type="text" name="location" class="form-control" aria-describedby="sizing-addon-1" placeholder="Location">
+        </div>
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon" id="sizing-addon-1"><i class="fa fa-globe"></i></span>
+          <input type="text" name="website" class="form-control" aria-describedby="sizing-addon-1" placeholder="Website (Optional)">
+        </div>
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon" id="sizing-addon-1"><i class="fa fa-user"></i></span>
+          <input type="text" name="name" class="form-control" aria-describedby="sizing-addon-1" placeholder="Name (Optional)">
+        </div>
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon" id="sizing-addon-1"><i class="fa fa-envelope"></i></span>
+          <input type="text" name="email" class="form-control" aria-describedby="sizing-addon-1" placeholder="Contact Email (For internal use only)">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="input-group">
+          <select id="chapter" name="dropdown">
+            <option value="car-free">The Car Free City</option>
+            <option value="post-carbon">The Post-Carbon City</option>              <option value="bio">The Bio City</option>
+            <option value="common">The Common City</option>
+          </select>
+          <br>
+          <br>
+          <textarea id="description" name="description" rows="6" cols="80" class="form-control"aria-describedby="sizing-addon-1" placeholder="Description (Maximum 200 words)" maxlength="1500"></textarea>
+        </div>
+        <input type="submit" class="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</div>
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="foot-left">
+            <a href="manifesto.html">A Manifesto for Real Change</a>
+            <br>
+            <a href="get-in-touch.html">Get involved</a>
+            <br>
+            <a href="about.html">About the author</a>
+            <br>
+            <a href="buy-book.html">Buy the book</a>
+            <br>
+            <p> © Spider's Web Design, 2018 </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="foot-right">
+            <a href="car-free.html">The Car Free City</a>
+            <br>
+            <a href="post-carbon.html">The Post-Carbon City</a>
+            <br>
+            <a href="bio-city.html">The Bio City</a>
+            <br>
+            <a href="common-city.html">The Common City</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
