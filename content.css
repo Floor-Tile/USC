@@ -350,10 +350,17 @@ html,body{
 }
 
 /*CHAPTER PAGES*/
-.home-button{
-  width: 250px;
-  margin: 20px;
-  padding-top: 20px;
+#home-btn {
+  padding-top: 40px;
+  font-size: 50px;
+  color: #000000;
+}
+#home-btn:hover{
+  transition: .5s ease;
+  color: #B2E5FF;
+}
+#mani-link a:hover{
+  text-decoration: none;
 }
 
 #chapter-info h1{
@@ -528,7 +535,7 @@ html,body{
   border-radius: 0;
   width: 100%;
   font-size: 30px;
-  background-color: grey;
+  background-color: #E8E8E8;
   color: white;
 }
 
