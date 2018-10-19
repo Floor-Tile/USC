@@ -655,6 +655,7 @@ html,body{
   font-size: 20px;
   line-height: 1.6;
   font-style: italic;
+  text-decoration: none;
   &:before {
       content: '\201C';
       position: absolute;
@@ -663,14 +664,16 @@ html,body{
       color: darken($white, 7%);
       font-size: 6em;
       z-index: -1;
+      text-decoration: none;
    }
 }
+
 footer {
     font-size: 0.6em;
     font-weight: 700;
+    font-style: normal;
     color: darken($white, 15%);
     float: right;
-
     &:before {
       content: '\2015';
     }
@@ -681,7 +684,7 @@ footer {
       top: 0.28em;
       right: 0;
       font-size: 6em;
-      font-style: italic;
+      font-style: normal;
       color: darken($white, 7%);
       z-index: -1;
    }
