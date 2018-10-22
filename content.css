@@ -38,7 +38,7 @@ html,body{
   font-weight: bold;
   color: #000000;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
   .main-title h1{
     font-size:60px;
   }
@@ -63,7 +63,7 @@ html,body{
   text-align: center;
   color: #000000;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
   .main-title h3{
     font-size:40px;
   }
@@ -105,7 +105,7 @@ html,body{
 .enter-site a:hover{
   text-decoration: none;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1400px) {
   .enter-site h3{
     font-size:40px;
   }
@@ -122,7 +122,7 @@ html,body{
 }
 
 #ref{
-  margin-top: 880px;
+  margin-top: 1400px;
   margin-left: 20px;
   color: #000000;
   border-radius: 15px;
@@ -138,9 +138,28 @@ html,body{
 #ref a:hover{
   text-decoration: none;
 }
+@media only screen and (max-width: 1440px) {
+  #ref{
+    margin-top: 600px;
+  }
+}
 @media only screen and (max-width: 1024px) {
   #ref{
-    margin-top: 800px;
+    margin-top: 600px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #ref{
+    margin-top: 460px;
+    font-size: 14px;
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  #ref{
+    margin-top: 500px;
+    font-size: 10px;
+    width: 120px;
   }
 }
 
@@ -191,6 +210,16 @@ html,body{
 
   100% {
     opacity: 1;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .slide-right p{
+    font-size:20px;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .slide-right {
+    width: 90%;
   }
 }
 
