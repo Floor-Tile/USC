@@ -113,7 +113,7 @@ html,body{
 }
 .slide-right p{
   color: #000000;
-  font-size: 30px;
+  font-size: 1.7vw;
   text-align: center;
   border: 5px solid black;
   border-radius: 15px;
@@ -121,6 +121,11 @@ html,body{
   text-decoration:none;
   box-sizing: border-box;
   padding: 10px;
+}
+@media only screen and (max-width: 425px) {
+  .slide-right p{
+    font-size: 15px;
+  }
 }
 @keyframes slide-right {
   from {
@@ -141,14 +146,10 @@ html,body{
     opacity: 1;
   }
 }
-@media only screen and (max-width: 992px) {
-  .slide-right p{
-    font-size:20px;
-  }
-}
+
 @media only screen and (max-width: 870px) {
   .slide-right {
-    width: 90%;
+    width: 80%;
   }
 }
 
@@ -275,6 +276,11 @@ html,body{
 #titles a:hover{
   text-decoration: none;
 }
+@media only screen and (max-width: 870px) {
+  #titles h2 {
+    font-size: 30px;
+  }
+}
 
 .mani{
     margin-bottom: 200px;
@@ -297,6 +303,11 @@ html,body{
 }
 .mani a:hover{
   text-decoration: none;
+}
+@media only screen and (max-width: 870px) {
+  .mani h2 {
+    font-size: 40px;
+  }
 }
 
 #sub-head h1{
@@ -326,7 +337,6 @@ html,body{
 }
 .book-cover{
   width: 500px;
-  padding-left: 50px;
 }
 
 /*FOOTER*/
@@ -350,6 +360,7 @@ html,body{
   margin-left: 30px;
   text-align: left;
   padding-top: 20px;
+  padding-bottom: 15px;
 }
 .foot-right {
   margin-right: 30px;
