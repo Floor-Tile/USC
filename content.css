@@ -33,56 +33,21 @@ html,body{
   overflow: auto;
 }
 .main-title h1{
-  font-size: 70px;
+  font-size: 5vw;
   text-align: center;
   font-weight: bold;
   color: #000000;
 }
-@media only screen and (max-width: 1400px) {
-  .main-title h1{
-    font-size:60px;
-  }
-}
-@media only screen and (max-width: 992px) {
-  .main-title h1{
-    font-size:50px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .main-title h1{
-    font-size:40px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .main-title h1{
-    font-size:30px;
-  }
-}
 .main-title h3{
-  font-size: 50px;
+  font-size: 3vw;
   text-align: center;
   color: #000000;
-}
-@media only screen and (max-width: 1400px) {
-  .main-title h3{
-    font-size:40px;
-  }
-}
-@media only screen and (max-width: 992px) {
-  .main-title h3{
-    font-size:30px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .main-title h3{
-    font-size:20px;
-  }
 }
 
 .enter-site{
   transform: translate(-50%, -50%);
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 50%;
   resize: both;
   overflow: auto;
@@ -91,7 +56,7 @@ html,body{
   border: 5px solid black;
   border-radius: 15px;
   background-color: rgba(255,255,255,1);
-  font-size: 50px;
+  font-size: 3vw;
   text-align: center;
   color: #000000;
   text-decoration:none;
@@ -105,62 +70,28 @@ html,body{
 .enter-site a:hover{
   text-decoration: none;
 }
-@media only screen and (max-width: 1400px) {
-  .enter-site h3{
-    font-size:40px;
-  }
-}
-@media only screen and (max-width: 992px) {
-  .enter-site h3{
-    font-size:30px;
-  }
-}
-@media only screen and (max-width: 576px) {
-  .enter-site h3{
-    font-size:20px;
-  }
-}
 
 #ref{
-  margin-top: 1400px;
-  margin-left: 20px;
   color: #000000;
-  border-radius: 15px;
-  padding: 10px;
-  background-color: rgba(255,255,255,1);
+  font-size: 1vw;
+  /*width: 200px;*/
   border: 2px solid black;
-  font-size: 18px;
-  width: 190px;
+  border-radius: 15px;
+  background-color: rgba(255,255,255,1);
+  width: 200px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 92%;
+  left: 7%;
+  padding: 10px;
+  resize: both;
+  overflow: auto;
 }
 #ref a{
   color: #000000;
 }
 #ref a:hover{
   text-decoration: none;
-}
-@media only screen and (max-width: 1440px) {
-  #ref{
-    margin-top: 600px;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  #ref{
-    margin-top: 600px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  #ref{
-    margin-top: 460px;
-    font-size: 14px;
-    width: 150px;
-  }
-}
-@media only screen and (max-width: 425px) {
-  #ref{
-    margin-top: 500px;
-    font-size: 10px;
-    width: 120px;
-  }
 }
 
 /*MAIN PAGE*/
