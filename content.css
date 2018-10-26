@@ -316,6 +316,11 @@ html,body{
   font-size: 70px;
   padding-right: 50px;
 }
+@media only screen and (max-width: 870px) {
+  #sub-head h1 {
+    font-size: 50px;
+  }
+}
 #sub-head a:hover{
   text-decoration: none;
 }
@@ -332,11 +337,15 @@ html,body{
 .book h1{
   color: #87A094;
 }
-.book{
-  margin-bottom: 300px;
-}
 .book-cover{
-  width: 500px;
+  width: 50%;
+  margin-bottom: 150px;
+}
+@media only screen and (max-width: 870px) {
+  .book-cover{
+    margin-left: 25%;
+    margin-bottom: 20px;
+  }
 }
 
 /*FOOTER*/
