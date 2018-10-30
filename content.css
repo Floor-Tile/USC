@@ -411,7 +411,7 @@ html,body{
   color: #000000;
 }
 #chapter-info p{
-  font-size: 20px;
+  font-size: 25px;
   color: #000000;
   padding-top:50px;
 }
@@ -639,9 +639,11 @@ html,body{
 }
 
 .brooks {
+  color: #000000;
   font-size: 20px;
   line-height: 1.6;
   font-style: italic;
+  font-weight: 400;
   text-decoration: none;
   &:before {
       content: '\201C';
